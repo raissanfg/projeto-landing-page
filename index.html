@@ -111,76 +111,79 @@
         </section>
 
         <section id="onde-morar">
-            <h1 id="h1-form">DÊ UMA ESPIADA</p>
+            <h1 id="h1-form">DÊ UMA ESPIADA</h1>
 
-                <form action="#" id="form-escolha">
 
-                    <label for="cidade" id="cidade"> ESCOLHA SUA CIDADE</label>
-                    <select id="cidade" name="cidade">
-                        <option value="sao-paulo">São Paulo</option>
-                        <option value="campinas">Campinas</option>
-                        <option value="rio-de-janeiro">Rio de Janeiro</option>
-                    </select>
-                    <br>
-                    <label id="cidade"> VALOR TOTAL ATE</label>
-                    <select id="valor-aluguel" name="valor-aluguel">
-                        <option value="1200"> R$ 1.000</option>
-                        <option value="1500">R$ 1.500</option>
-                        <option value="2000">R$ 2.000</option>
-                        <option value="2500">R$ 2.500</option>
-                        <option value="3000">R$ 3.000</option>
-                        <option value="3500">R$ 3.500</option>
-                    </select>
-                    <br>
-                    <input type="submit" value="Buscar Moradia">
-                </form>
+            <form action="#" id="form-escolha">
+
+                <label for="cidade" class="visita"> Escolha sua Cidade</label>
+                <select id="cidade" name="cidade">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="campinas">Campinas</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                </select>
+                <br>
+                <label class="visita"> Valor total até</label>
+                <select id="valor-aluguel" name="valor-aluguel">
+                    <option value="1200"> R$ 1.000</option>
+                    <option value="1500">R$ 1.500</option>
+                    <option value="2000">R$ 2.000</option>
+                    <option value="2500">R$ 2.500</option>
+                    <option value="3000">R$ 3.000</option>
+                    <option value="3500">R$ 3.500</option>
+                </select>
+
+                <br>
+
+                <a href="moradia.html"><input type="button" value="Buscar Moradia"></a>
+
+            </form>
         </section>
 
         <section id="agende-uma-visita">
-            <article>
 
-                <h1 id="h1-visita"> AGENDE UMA VISITA </h1>
-                <p id="p-visita">Selecione a unidade de interesse e o melhor dia abaixo.<br>
-                    Antes de sua visita, entraremos em contato para confirmar uma data. <br>
-                    Lembre-se que a F4Life é moradia para estudantes, ok? <br>
-                    Boa visita! 😉
-                </p>
 
-                <form action="#" id="form-info">
-                    <label for="unidade" id="visita"> Qual unidade deseja agendar uma visita ?</label><br>
-                    <select name="opcoes">
-                        <option value="sao-paulo">Säo Paulo</option>
-                        <option value="campinas">Campinas</option>
-                        <option value="rio-de-janeiro">Rio de Janeiro</option>
-                    </select>
+            <h1 id="h1-visita"> AGENDE UMA VISITA </h1>
+            <p id="p-visita">Selecione a unidade de interesse e o melhor dia abaixo.<br>
+                Antes de sua visita, entraremos em contato para confirmar uma data. <br>
+                Lembre-se que a F4Life é moradia para estudantes, ok? <br>
+                Boa visita! 😉
+            </p>
+
+            <form action="#" id="form-info">
+                <label for="unidade" class="visita"> Qual unidade deseja agendar uma visita ?</label><br>
+                <select name="opcoes" class="visita">
+                    <option value="sao-paulo">Säo Paulo</option>
+                    <option value="campinas">Campinas</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+
                     <br>
 
-                    <label for="nome" id="visita">Digite seu nome</label><br>
+                    <label for="nome" class="visita">Digite seu nome</label><br>
                     <input type="text" id="nome" name="nome"><br>
 
 
-                    <label for="email" id="visita">Digite seu email</label><br>
-                    <input type="text" id="email" name="email"><br>
+                    <label for="email" class="visita">Digite seu email</label><br>
+                    <input type="text" class="email" name="email"><br>
 
-                    <label for="sobre" id="visita">Nos conte mais sobre voçê</label><br>
+                    <label for="sobre" class="visita">Nos conte mais sobre voçê</label><br>
                     <textarea></textarea>
                     <br>
 
                     <input type="submit" value="SOLICITAR VISITA">
 
-                </form>
-            </article>
+            </form>
+
         </section>
 
 
         <footer>
-
-    
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-
+            <ul>
+                <li> <a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-youtube"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+            </ul>
         </footer>
     </main>
 </body>
