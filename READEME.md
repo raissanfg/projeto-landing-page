@@ -4,13 +4,17 @@
 
   F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação. Você precisa criar uma landing page que chame a atenção de pessoas que estão na graduação e ofereça os produtos "moradia compartilhada" e "kitnets".
 
-[Logo aqui](https://labenu.notion.site/Projeto-Landing-Page-WFS-7b37ff1460e741b1b5e1e049d7df9d69)
-  
+
+---------------------------
 
 
-Responda às perguntas abaixo para definir alguns pontos importantes do seu site! Anote essas respostas e deixe-as à mão, você vai precisar delas durante a construção da sua Landing Page.
+#### Local do Projeto 
+https://abounding-oil.surge.sh/
 
 
+
+
+---------------------------
 1. **Qual é a empresa fictícia que será utilizada na página?**
    - A empresa fictícia será **f4Life**.
 
@@ -46,3 +50,30 @@ Responda às perguntas abaixo para definir alguns pontos importantes do seu site
 
 12. **Qual a localização dos ícones de redes sociais?**
     - Os ícones de redes sociais estarão no `<footer>`.
+
+
+
+
+
+
+    -----------------------
+    #### Prints da Pagina 
+
+    <img src="./fotinhas/header.png">
+    <img src="./fotinhas/quem somos.png">
+    <img src="./fotinhas/eventos.png">
+    <img src="./fotinhas/atividades.png">
+    <img src="./fotinhas/onde morar.png">
+    <img src="./fotinhas/agende uma visita.png">
+    <img src="./fotinhas/quem somos.png">
+
+
+#### Prints da versao mobile 
+
+ <img src="./fotinhas/first.png">
+ <img src="./fotinhas/second.png">
+ <img src="./fotinhas/third.png">
+ <img src="./fotinhas/fourth.png">
+ <img src="./fotinhas/fifth.png">
+ <img src="./fotinhas/sisth.png">
+   
